@@ -38,6 +38,18 @@
     .large-font {
       font-size: 3rem;
     }
+
+    /* Added stuff  */
+        .bg-image-first {
+      background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("./img/sports-tech.jpg");
+      background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%),
+        url("./img/sports-tech.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: auto;
+    }
+
+
   </style>
 </head>
 
@@ -53,24 +65,16 @@
         <a class="js-scroll-trigger" href="#Introduction">Introduction</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#important">Quésaco l’apprentissage par renforcement?</a>
+        <a class="js-scroll-trigger" href="#important">Chatbots</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#benefices">Différence entre RL et les autres
-          paradigmes de ML</a>
+        <a class="js-scroll-trigger" href="#benefices">Computer Vision</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#important2">Le processus d'apprentissage par renforcement</a>
+        <a class="js-scroll-trigger" href="#important2">Automated Journalism</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#missions">Les Markovs Decision Processes</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#class-ds">Les différents approches de Reinforcement Learning</a>
-      </li>
-
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#Pourquoi">Les Success Stories de RL</a>
+        <a class="js-scroll-trigger" href="#IOT">Wearable Technology and IOT</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#Conclusion">Conclusion</a>
@@ -82,10 +86,11 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1" style="color: ivory; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Introduction
-        à l'Apprentissage par Renforcement </h1>
+  <!--  <header  class="masthead d-flex">   -->
+  	<header class="bg-image-first"> 
+    <div class="container text-center my-auto"> 
+    	<!-- <div class="content-section bg-light-custom"> -->
+      <h1 class="mb-1" style="color: ivory; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Nouvelles technologies au service du sport </h1>
       <h3 class="mb-5 large-font">
         <em></em>
       </h3>
@@ -100,182 +105,185 @@
       <div class="row">
         <div class="col-lg-10 mx-auto" style="text-align: justify">
           <h2 class="mb-5 large-font" align="center">Introduction</h2>
-          <p class="lead mb-8">L'idée que nous apprenons en interagissant avec notre environnement est probablement la
-            première qui nous vienne à
-            l'esprit lorsque nous réfléchissons aux méthodes d’apprentissage. Lorsqu'un enfant joue, agite les bras ou
-            regarde, il
-            n'a pas d'enseignant explicite, mais il a une connexion sensori-motrice directe avec son environnement.
-            L'exercice de
-            cette relation produit une mine d'informations sur les causes et les effets, sur les conséquences des
-            actions et sur
-            les mesures à prendre pour atteindre les objectifs. Tout au long de notre vie, de telles interactions sont
-            sans aucun
-            doute une source majeure de connaissances sur notre environnement et sur nous-mêmes. Que nous apprenions à
-            conduire une
-            bicyclette ou à tenir une conversation, nous sommes parfaitement conscients de la façon dont notre
-            environnement réagit
-            à ce que nous faisons, et nous cherchons à influencer ce qui se passe à travers notre comportement. Ainsi,
-            apprendre de
-            l'interaction nous semble être un paradigme fondamentale des théories de l'apprentissage et de
-            l'intelligence.</p>
+              <p class="lead mb-5">
 
-          <p class="lead mb-5">L’approche que nous explorons dans cette étude bibliographique, appelée apprentissage
-            par renforcement, est beaucoup
-            plus axée sur l’apprentissage dirigé par interaction que par d’autres approches de l’apprentissage comme
-            l’apprentissage supervisé et non supervisé qui se basent principalement sur l’analyse de données.
-            Dans ce rapport, nous explorons une approche informatique pour apprendre de l'interaction. Nous
-            explorons tout d’abord les notions mathématiques permettant de modéliser ce type de problèmes
-            d'apprentissage.</p>
+          </p>
+          
+        </div>
         </div>
       </div>
     </div>
+
+           <div class="content-section-heading text-center">
+            <img src="img/sportmarket.png" align="center">
+          </div>
   </section>
   <!-- Introduction -->
 
   <!-- missions -->
 
-  <section class="content-section bg-image-custom" id="important">
+
+<!-- flling content
+          <p class="lead mb-5">
+          	ddddddddddddddddddddddddddddddddddddddddddddddddddd
+          	ddddddddddddddddddddddddddddddddddddddddddddddddd
+          	ddddddddddddddddddddddddddddddddddd
+          	ddddddddddddddd
+          </p>
+          <p class="lead mb-5">
+            dddddddddddddddddddddddddd
+            dddddddddddddddddddddddddddd
+            dddddddddddddddddddddddddd
+            dddddddddddddddddddddddddddddd
+          </p>
+          <p class="lead mb-5">
+          	dddddddddddddddddddddddddddddddddddddddddddd
+          	ddddddddddddddddddddddddddddddddddddddddddd
+          	ddddddddddddddddddddddddddddddddddddddd
+          	dddddddddddddddddddddddddddddddddddddddd
+           </p>
+        </div>-->
+
+
+
+  <!-- <section class="content-section bg-image-custom" id="important"> -->
+  <section class="content-section" id="important" style="background-color: #e0f4e3">
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto" style="text-align: justify">
-          <h2 class="mb-5 large-font" align="center">Quésaco l’apprentissage par renforcement?</h2>
+          <h2 class="mb-5 large-font" align="center">Chatbots</h2>
           <p class="lead mb-5">
-            L’apprentissage par renforcement désigne à la fois un problème d’apprentissage et un sous-domaine du
-            Machine Learning.
+          	<strong> Exemples du chatbot dans le domaine du sport </br></strong>
+          	
+<!--
+<span>
+    <img src="img/fred.png" style="padding-left:10px;float:left;"> 
+    <i style="float:left; padding-left:10px;"> hello sufidjdssssssss</i>
+    <img src="img/barcelona.jpg" style="margin-left:10px;float:left;">
+</span>
+-->
           </p>
+
+         </p>
           <p class="lead mb-5">
-            L'apprentissage par renforcement, ou RL tout court, désigne à la fois un problème d’apprentissage et un
-            sous-domaine du
-            Machine Learning. Il traite des problèmes impliquant un agent interagissant avec un environnement
-            fournissant des
-            signaux de récompense numériques dans le but d’apprendre à prendre des actions afin de maximiser la
-            récompense.
-            Autrement dit c’est la science de la prise de décision ou le moyen optimal de prendre des décisions. Il
-            consiste
-            principalement à apprendre quoi faire - comment mapper des situations sur des actions - de manière à
-            maximiser un
-            signal de récompense numérique.
+              
+           <div class="content-section-heading text-center">
+            <img src="img/fred.png" align="center">
+          </div>
+           <div class="content-section-heading text-center">
+            <img src="img/barcelona.jpg" align="center">
+          </div>
+           </p>
+
+          NEXT STUFF
+          <p class="lead mb-5">
+
           </p>
+
+          <p>
+ 			<strong> Architectures du chatbot </br></strong>
+
+
+
+              <pre> Chatbot avec IA                       				Chatbot sans IA </pre> </br>
+           
+
+    <img src="img/chatbotavecAI.png" alt="Logo"  />
+        Deux archtectures de chatbots possible.
+   <!--  <img src="img/chatbtuexp.png" > -->
+    <img src="img/sansiachatbot.png" alt="Logo" />
+     </br><pre>                           &nbsp;&nbsp; <img src="img/chatbtuexp.png" >  </pre>
+
+
+		Well, we explain here
+           </div>	
+
+        
+		</p> 
+
+
           <p class="lead mb-5">
-            C’est l’idée clé de RL, l'apprentissage se base sur une connexion sensori-motrice directe de l’agent avec
-            son
-            environnement sans aucun enseignement explicite. On ne dit pas à l'apprenant quelles actions entreprendre,
-            mais il doit
-            plutôt découvrir quelles actions donnent le plus de récompense en les essayant. Dans les cas les plus
-            intéressants et
-            les plus difficiles, les actions peuvent affecter non seulement la récompense immédiate, mais également la
-            situation
-            suivante et, par là même, toutes les récompenses ultérieures. Ces deux caractéristiques - recherche par
-            essais et
-            erreurs et récompense différée - sont les deux caractéristiques distinctives les plus importantes de
-            l'apprentissage
-            par renforcement.</p>
+          	<div class="content-section-heading text-center">
+              <strong> Domaines et types du chatbot </strong> </br>
+           
+            <img src="img/DomainesChatbots.png" align="center">
+          </div>
+           </p>
+
+
+
         </div>
       </div>
     </div>
+
+
+
   </section>
+
+
 
   <section class="content-section bg-light-custom" id="benefices">
-    <div class="container text-center">
+    <div >
       <div class="row">
         <div class="col-lg-10 mx-auto" style="text-align: justify">
-          <h2 class="mb-5 large-font" align="center"> Différence entre apprentissage par renforcement et les autres
-            paradigmes d'apprentissage
-            automatique </h2>
+          <h2 class="mb-5 large-font" align="center"> Computer Vision </h2>
 
-          <p class="lead mb-5">Comme l’on a déjà expliqué dans les paragraphes précédentes, en RL il n'y a pas de
-            supervision, seulement un signal de
-            récompense qui indique à l'agent si son action a été bonne ou mauvaise. Les réactions de l’environnement
-            peuvent être
-            différées sur plusieurs intervalles de temps, ce n’est pas nécessairement instantané, par exemple. pour la
-            tâche
-            d'atteindre un objectif dans un monde en grille, le retour d'informations peut être à la fin lorsque
-            l'agent atteint
-            l'objectif. L’agent peut passer un certain temps à explorer et à errer dans l’environnement jusqu’à ce
-            qu’il atteigne
-            finalement l’objectif au bout d’un moment de réaliser quelles ont été les bonnes et les mauvaises actions
-            qu’il a
-            prises.</p>
+          <p class="lead mb-5">
+          	<img src="img/roboref.jpg" align="left">
+ 			Robo referre qui s'appelle 'Danny'
+          </p>
 
-          <p class="lead mb-5">Contrairement à l’apprentissage supervisé où nous avons un jeu de données décrivant
-            l'environnement de l'algorithme et
-            les bonnes réponses ou actions à faire face à une situation spécifique. L'algorithme tente de généraliser à
-            partir de
-            ces données à de nouvelles situations.</p>
+          <p class="lead mb-5">
+          	hello
+          	<img src="img/hawkeye.jpg" align="right">
 
-          <p class="lead mb-5">En RL, les données ne sont pas I.I.D (indépendantes et identiquement distribuées).
-            L'agent peut passer du temps dans
-            une certaine partie de l'environnement et ne pas voir d'autres parties pouvant être intéressantes pour
-            apprendre le
-            comportement optimal. Donc, le temps compte vraiment, l'agent doit explorer à peu près toutes les parties
-            de
-            l'environnement pour pouvoir prendre les bonnes mesures.</p>
+          </p>
 
-          <p class="lead mb-5">L’agent influence l’environnement par ses actions qui, à leur tour, affectent les
-            données ultérieures qu’il reçoit de
-            l’environnement, c’est un processus d’apprentissage actif.</p>
+          <p class="lead mb-5">
+
+<iframe src="https://player.vimeo.com/video/119193860" width="640" height="388" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+          </p>
+
+          Points techniques
+
+          <p class="lead mb-5">
+          	<img src="img/cv-nascar1.jpg" align="left">
+          </p>
+
+          <p class="lead mb-5">
+          	<img src="img/cv-nascar2.png" align="right">
+          </p>
+
 
         </div>
       </div>
     </div>
   </section>
+
   <!-- missions -->
 
   <section class="content-section" id="important2" style="background-color: #e0f4f6">
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto" style="text-align: justify">
-          <h2 class="mb-5 large-font" align="center">Le processus d'apprentissage par renforcement</h2>
+          <h2 class="mb-5 large-font" align="center">Automated Journalism</h2>
           <p class="lead mb-5">
-            Il y a cinq éléments associés à l'apprentissage par renforcement:
-
-            <ul class="lead mb-5">
-              <li><b>Un agent </b>est le composant principal et le décideur dans l'environnement d'apprentissage par
-                renforcement.</li>
-              <li><b>L'environnement </b>est la zone environnante, ce que l'agent a pour objectif de réaliser.</li>
-              <li> <b>Un état: </b> c’est la représentation privée de l’environnement, c’est-à-dire les
-                données que
-                l’environnement utilise pour choisir l’état suivant et le récompenser. L'état de l'environnement n'est
-                généralement pas visible pour l'agent, même s'il est visible, il peut contenir des informations non
-                pertinentes.</li>
-              <li> <b>Actions</b>, qui sont les tâches effectuées par l'agent dans un environnement.</li>
-              <li><b>La récompense</b>, est un signal de retour scalaire indiquant le niveau de performance de l'agent
-                au pas à
-                l’instant t.</li>
-            </ul>
+            Il y a cinq éléments de Automated Journalism
           </p>
 
-          <div class="content-section-heading text-center">
-            <img src="img/reinforcement-learning-fig1-700.jpg" align="center">
-          </div>
-
+          
           <br>
-          <p class="lead mb-5">Ainsi, l’idée principale de RL se résume par un environnement qui représente le monde
-            extérieur pour l’agent et un agent
-            qui prend des actions en se basant sur une récompense pour son action et
-            une information sur son nouvel état. Le bon fonctionnement de cet agent consiste à maximiser la somme
-            attendue des récompenses.</p>
+          <p class="lead mb-5"></p>
 
           <p class="lead mb-5">
-            Pour une meilleure compréhension du processus d'apprentissage par renforcement, imaginons un agent
-            apprenant à jouer à Super Mario Bro comme exemple concret. Le processus d'apprentissage par renforcement
-            (RL) peut être modélisé comme une boucle qui fonctionne comme ceci:
+            
 
-            <ul class="lead mb-5">
-              <li>Notre agent reçoit l'état S0 de l'environnement (Dans notre cas, nous recevons la première image de
-                notre jeu (état) de
-                Pacman(environnement))</li>
-              <li>Sur la base de cet état S0, l'agent effectue une action A0 (notre agent se déplacera à droite,
-                gauche, haut ou bas).</li>
-              <li>L'environnement passe dans un nouvel état S1 (nouvelle trame)</li>
-              <li>L'environnement donne une récompense R1 à l'agent (gagne une pièce ou mange un champignon : +1)</li>
-            </ul>
+         
             <p class="lead mb-5">
-              Cette boucle RL génère une séquence d’états, d’actions et de récompenses. Et cette boucle peut être épisodique ou continue.
+              
             </p>
-            <p class="lead mb-5"> Dans le cas épisodique , nous avons un point de départ et un état final comme le cas de Super Mario.
-
-            Contrairement au cas continu, où les tâches continuent indéfiniment comme le cas de stock trading </p>
+            <p class="lead mb-5"> </p>
 
         </div>
       </div>
@@ -283,235 +291,87 @@
   </section>
 
 
-  <section class="content-section bg-light-custom text-center" id="missions">
+   <section class="content-section bg-light-custom" id="IOT">
     <div class="container">
 
-      <div class="content-section-heading">
-        <h2 class="mb-5 large-font">Les Markovs Decision Processes</h2>
-      </div>
-      <div class="col-lg-10 mx-auto" style="text-align: justify">
-        <p class="lead mb-5">Toute tâche d'apprentissage de renforcement avec un ensemble d'états, d'actions et de
-          récompenses, qui suit la
-          propriété de Markov, est un processus de décision de Markov.
-          Formellement parlant, un processus de décision de Markov est un processus de cinq tuple.
-          composé de:
+    <div >
+      <div class="row">
+        <div class="col-lg-10 mx-auto" style="text-align: justify">
+          <h2 class="mb-5 large-font" align="center"> Wearable tech et IOT </h2>
+          <p>Wearable technology is a hot market in recent times. With the purchase of Fitbit by Google for a whopping 5 Billion, more attention is being drawn to this domain than ever before. Research advancements in IOT - Sensor Networks, Analytics are revolutionilising the domain of Wearable technologies and their connectivity with the internet.  <br>
+          	<br>
 
-          <ul class="lead mb-5">
-            <li>Un ensemble des états de Markov</li>
-            <li>Un ensemble fini des états qui peuvent être prise par l'agent</li>
-            <li>Les probabilités de transition d'état</li>
-            <li>Un ensemble de récompenses</li>
-            <li>Un facteur d'escompte</li>
-          </ul>
+          The market for Wearable technology is vast and ever growing, but for our research let us stick to their usage and applications in the sports industry. </p>
+
+          <p><strong> First the basics </strong> <br>
+          	What is IOT and Wearable Tech?  <br>
+
+          	IOT or internet of things represents networks of variety of connected objects. These objects are capable of connecting and sharing information with the internet. 
+          	Wearable technology are simply appliacances or devices equipped with IOT technologies and are for being worn by humans.
+          	
+      	  <p class="lead mb-5">
+          	<img src="img/iotuses.png" align="right">
+          </p>
+
+           <p class="lead mb-5">
+          	<img src="img/iotuses2.png" align="right">
+          </p>
+
+           <p class="lead mb-5">
+          	<img src="img/casquesIOT.jpg" align="right">
+          </p>
+
+           <p class="lead mb-5">
+          	<img src="img/tennis iot performance tracking.jpg" align="right">
+          </p>
+
+           <p class="lead mb-5">
+          	<img src="img/iotex2.png" align="right">
+          </p>
+
+
+          <p class="lead mb-5">
+          	<img src="img/BAN-IOT.jpg" align="right">
+          </p>
+
+                     <p class="lead mb-5">
+          	<img src="img/Cloud-IOT.png" align="right">
+          </p>
+
+
+           <p class="lead mb-5">
+          	<img src="img/Dashboards-IOT.jpg" align="right">
+          </p>
+
+        <p class="lead mb-5">
         </p>
-        <p class="lead mb-5">La figure suivante illustre un Exemple de MDP simple avec trois états représentées par les
-          cercles verts et deux actions en cercles orange), avec deux récompenses illustrées par les flèches
-          oranges. </p>
+
+
+
+        <p class="lead mb-5"> </p>
       </div>
     </div>
+     </div>
   </section>
+
+
   <section class="content-section bg-light-custom" id="portfolio">
     <div class="container">
-      <div class="content-section-heading text-center">
-        <img src="./img/state_diagram.PNG" align="center">
-      </div>
+<!-- Image here ? -->
+
     </div>
   </section>
 
-  <!-- Callout -->
-  <section class="content-section" style="background-color: #b0ddf2;" id="class-ds">
-    <div class="container text-center">
-      <h2 class="mb-5 large-font">Les différents approches de Reinforcement Learning</h2>
-    </div>
-    <div class="col-lg-10 mx-auto" style="text-align: justify">
-
-      <p class="lead mb-5">Il existe deux familles d’approches pour résoudre un problème d’apprentissage par
-        renforcement.
-        Celles-ci sont les méthodes basées sur un modèle et les méthodes sans modèle qui eux même se divisent en deux
-        sous parties: policy based methods et les value based methods.</p>
-    </div>
-    <div class="container">
-      <div class="content-section-heading text-center">
-        <img src="./img/d.png" align="center">
-
-      </div>
-    </div>
-    <div class="container text-center" style="margin-top: 2rem;">
-      <div class="col-lg-10 mx-auto" style="text-align: justify">
-        <h4>Value based methods:</h4>
-        <p class="lead mb-5">
-          Dans RL basé sur la valeur, l’objectif est d’optimiser la fonction de valeur V (s).
-
-          La fonction de valeur est une fonction qui nous indique la récompense future maximale attendue par l'agent
-          pour
-          chaque
-          état.
-
-          La valeur de chaque état correspond au montant total de la récompense qu'un agent peut s'attendre à accumuler
-          à
-          l'avenir, à partir de cet état. </p>
-        <div class="content-section-heading text-center">
-          <img src="./img/0_kvtRAhBZO-h77Iw1_.png" align="center">
-        </div>
-        <br>
-        <p class="lead mb-5">
-          L'agent utilisera cette fonction de valeur pour sélectionner l'état à choisir à chaque étape en prenant
-          l'état
-          avec la
-          plus grande valeur.
-        </p>
-
-        <h4>Policy Based methods</h4>
-        <p class="lead mb-5">Dans la RL basée sur des règles, nous souhaitons optimiser directement la fonction de
-          règles
-          π (s) (policy function)
-          sans utiliser de fonction de valeur.
-
-          Nous apprenons une fonction “policy” qui nous permet de mapper chaque état sur la meilleure action
-          correspondante.
-        </p>
-
-        <h4>Model based methods:</h4>
-        <p class="lead mb-5">
-          l'agent essaie d'apprendre un modèle du fonctionnement de l'environnement à partir de ses observations, puis
-          planifie
-          une solution à l'aide de ce modèle.
-
-          Le problème de cette méthode est que chaque environnement nécessitera une représentation de modèle
-          différente.
-
-        </p>
-      </div>
-    </div>
-  </section>
-
-
-
-  <!-- Call to Action -->
-  <section class="content-section bg-light-custom" id="Pourquoi">
-    <div class="container text-center">
-      <h2 class="mb-5 large-font">Les Success Stories de RL</h2>
-      <div class="col-lg-10 mx-auto" style="text-align: justify">
-        <br>
-        <br>
-        <h4>AlphaGo Zero</h4>
-        <p class="lead mb-5">
-          AlphaGo Zero est un système informatique développé par Google DeepMind qui permet de jouer l'ancien jeu
-          chinois de Go. Le jeu de Go commence
-          par un plateau vide. Chaque joueur dispose d’une réserve illimitée de pièces (appelées pierres), l’une
-          prenant les
-          pierres noires, l’autre prenant les blanches. L’objectif principal du jeu est d’utiliser vos pierres pour
-          former des
-          territoires en entourant les zones vacantes du plateau. Il est également possible de capturer les pierres de
-          votre
-          adversaire en les entourant complètement.
-        </p>
-        <p class="lead mb-5">
-          AlphaGo Zero est un logiciel développé par Google DeepMind qui permet de jouer l'ancien jeu chinois Go.
-          Les versions précédentes d'AlphaGo avaient été initialement formées par des milliers de jeux amateurs et professionnels
-          pour apprendre à jouer à Go. AlphaGo Zero ignore cette étape et apprend à jouer simplement en jouant contre elle-même,
-          à partir de jeux complètement aléatoires. Ce faisant, alphago zero a réussi à vaincre Lee Sedol, joueur professionnel
-          sud-coréen de Go, 4 matchs contre 1 en mars 2016.
-        </p>
-        <div class="content-section-heading text-center">
-          <img src="./img/1_4mKpnIdFqIr8D7mmOfnC-A.gif" align="center">
-        </div>
-        <br>
-        <br>
-
-        <h4>Deep RL appliqué à la robotique</h4>
-        <p class="lead mb-5">
-          Encore avec Deepmind qui a également utilisé l'apprentissage par renforcement profond pour simuler le
-          comportement de locomotion sur les modèles de simulation.
-          L'agent dispose d’un ensemble de capteurs virtuels qui lui permettent de percevoir l'environnement.
-
-          L'agent apprend à courir, à sauter, à s'accroupir et à grimper à travers des tentatives d'essais incessantes
-          et à
-          apprendre de ses erreurs.
-        </p>
-        <div class="content-section-heading text-center">
-          <img src="./img/deepmind_parkour.0.gif" height=400px width= "500px" align="center">
-        </div>
-
-        <br>
-        <br>
-
-        <h4>Deep Q-Network appliqué aux jeux d’Atari</h4>
-        <p class="lead mb-5">
-          DeepMind a réalisé une avancée décisive dans le monde de l'apprentissage par renforcement à la fin de l’année
-          2013. En
-          utilisant l'apprentissage par renforcement profond DQN, ils ont mis en place un système capable d'apprendre à
-          jouer à
-          de nombreux jeux Atari classiques avec des performances humaines (et parfois surhumaines). Le programme
-          informatique
-          n'a jamais vu ce jeu auparavant et ne connaît pas les règles. Il apprend par renforcement en profondeur à
-          maximiser son
-          score en prenant uniquement en compte les pixels et le score du jeu.
-
-        </p>
-        <div class="content-section-heading text-center">
-          <img src="./img/RashFlippantIbadanmalimbe-size_restricted.gif" align="center">
-        </div>
-
-      </div>
-
-    </div>
-    </div>
-  </section>
-
-  <section class="content-section" style="background-color: #1d809f;" id="Conclusion">
-    <div class="container text-center">
-
-        <div class="col-lg-10 mx-auto" style="text-align: justify">
-          <h2 class="mb-5 large-font" align="center">Conclusion</h2>
-
-<p class="lead mb-5">Andrew Ng le Co-chairman de Coursera a dit durant l'un de ses keynote speech que "l'enthousiasme et le battage médiatique entourant l'apprentissage par renforcement sont un peu disproportionnés par
-rapport à la valeur économique qu'il crée aujourd'hui. Il est évident que RL est un paradigme d’apprentissage automatique
-dont la soif de données est encore plus important que dans l’apprentissage supervisé. Il est très difficile d'obtenir
-suffisamment de données pour les algorithmes de RL ... il reste encore beaucoup à faire pour traduire cela en business et
-en pratique". </p>
-        <div class="content-section-heading text-center">
-          <img src="./img/Alex.jpg" align="center">
-        </div>
-        <br>
-        <p class="lead mb-5">
-        Alex Irpan, un ingénieur en informatique chez Google, a dit que l'apprentissage par renforcement ne marche qu'en 30% des cas.
-</p>
-
-<p class="lead mb-5">Revenons à nos success stories qu'on a cité. Lors du développement de l'application d'Atari qui est la référence la plus connue en matière d'apprentissage par renforcement, un grand problème a été rencontré: lorsque le nombre d’image par seconde augmente dans le jeu(qui represente le nombre d'état dand le problème d'apprentissage par renforcement), on ne
-parvient pas avec l’RL à toucher le score humain. </p>
-
-<p class="lead mb-5">En addition, Le coût du matériel pour un seul système AlphaGo Zero, a été estimé à 25 millions de dollars. </p>
-<p class="lead mb-5">
-Pareil pour l’application de locomotion de deepmind pour faire apprendre à un robot de marcher cela a pris 6400 heure
-cpu pour la phase d’apprentissage.</p>
-<p class="lead mb-5">
-Avec ces problème de coût, de performance et de temps de calcule, l’rl est visiblement pas encore prête pour être
-traduite en business du coup il faut attendre les prochaines années pour voir où cela pourrait aller. </p>
-
-        </div>
-        </div>
-        </section>
+     </section>
 
             <section class="content-section" style="background-color: #f2b604;" id="bib">
               <div class="container text-center">
                 <div class="row">
                   <div class="col-lg-10 mx-auto" style="text-align: justify">
           <h2 class="mb-5 large-font" align="center">Bibliographie</h2>
-          <p class="lead mb-5">UCL Course on RL by David Silver: <br>
-            <a href="http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html">
-              http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html</a></p>
-
-          <p class="lead mb-5">Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto: <br>
-            <a href="http://incompleteideas.net/book/bookdraft2017nov5.pdf">
-              http://incompleteideas.net/book/bookdraft2017nov5.pdf</a></p>
-          <p class="lead mb-5">Reinforcement Learning Demystified: A Gentle Introduction by Mohammad Ashraf: <br>
-            <a href="https://towardsdatascience.com/reinforcement-learning-demystified-36c39c11ec14">
-              https://towardsdatascience.com/reinforcement-learning-demystified-36c39c11ec14</a></p>
-
-          <p class="lead mb-5">An introduction to Reinforcement Learning by Thomas Simonini: <br>
-            <a href="https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419">
-              https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419</a></p>
+          <p class="lead mb-5">Wikipedia Article on IOT: <br>
+            <a href="https://en.wikipedia.org/wiki/Internet_of_things">
+              https://en.wikipedia.org/wiki/Internet_of_things</a></p>
 
         </div>
       </div>
@@ -524,22 +384,22 @@ traduite en business du coup il faut attendre les prochaines années pour voir o
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/zammit.soumaya">
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/ranganath.vai">
             <i class="icon-social-facebook"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/soumaya_zammit">
+          <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/RVaikuntham">
             <i class="icon-social-twitter"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="https://github.com/soumaya19/">
+          <a class="social-link rounded-circle text-white" href="https://github.com/ranganathvaikuntham/">
             <i class="icon-social-github"></i>
           </a>
         </li>
       </ul>
-      <p class="text-muted small mb-0">Réalisé par: Soumaya ZAMMIT</p>
+      <p class="text-muted small mb-0">Réalisé par: Ranganath VAIKUNTHAM</p>
     </div>
   </footer>
   <!-- Scroll to Top Button-->
