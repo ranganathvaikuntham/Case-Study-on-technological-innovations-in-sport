@@ -32,7 +32,7 @@
         url("./img/bg-callout.jpg");
       background-position: center center;
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: 100% 100%;
     }
 
     .large-font {
@@ -70,9 +70,10 @@
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#benefices">Computer Vision</a>
       </li>
+      <!--
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#important2">Automated Journalism</a>
-      </li>
+      </li> -->
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#IOT">Wearable Technology and IOT</a>
       </li>
@@ -86,8 +87,8 @@
   </nav>
 
   <!-- Header -->
-  <!--  <header  class="masthead d-flex">   -->
-  	<header class="bg-image-first"> 
+  <!--  <header  class="masthead d-flex">  -->  
+  <header class="bg-image-first"> 
     <div class="container text-center my-auto"> 
     	<!-- <div class="content-section bg-light-custom"> -->
       <h1 class="mb-1" style="color: ivory; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Nouvelles technologies au service du sport </h1>
@@ -106,7 +107,7 @@
       <div class="row">
         <div class="col-lg-10 mx-auto" style="text-align: justify">
           <h2 class="mb-5 large-font" align="center">Introduction</h2>
-              <p class="lead mb-5">
+              <p>
           Are you a sports fan eager to know how the domain of sport will change in the future? Or an entrepreneur looking for a booming business domain to be an early player? Or are you a tech-enthusiast wanting to know how recent innovative technologies are going to change the game in the domain of sports? Or are you simply curious to learn the effects technology is having on the sports domain?
 
           <br><br>If your answer is yes to any of these questions, it is imperative that you read up ahead.
@@ -116,7 +117,7 @@
             <div class="content-section-heading text-center">
             <img src="img/sportmarket.png" align="center">
           </div>
-          <p class="lead mb-5">
+          <p>
           	The figure above shows that the market of sports technology will affect not just one sport industry, but many sports almost equally. <br>
 
           	<br> With a growth rate of 19.17% each year, this sector appears to be an interesting venue for investors, expecting a market of 31.1 billion $ by 2024. <br><br><br>
@@ -165,7 +166,7 @@
       <div class="row">
         <div class="col-lg-10 mx-auto" style="text-align: justify">
           <h2 class="mb-5 large-font" align="center">Chatbots</h2>
-           <p class="lead mb-5">
+           <p >
           We begin with the well known chatbots and their role in the sports industry.
       </p>
       <p>
@@ -181,7 +182,7 @@
       </p>
 
           <p >
-          	<strong> Exemples du chatbot dans le domaine du sport </br></strong>
+          	<strong> Examples of chatbots in the Sports domain </br></strong>
           	<br>
           	Let us look at where and how chatbots are being implemented in our domain of interest - sports.
           </p>
@@ -194,11 +195,15 @@
             For one, we can use and talk to the chatbot regarding the smart stadium data like restroom availabilities in real time for example. With its connections to the internet we get real time stats of the matches and even the possibility to buy tickets.
 
           </p>
-          <p>
-          	Another interesting example of chatbots
-           <div class="content-section-heading text-center">
-            <img src="img/barcelona.jpg" align="center">
-          </div>
+          <p><br><br><br>
+          	Another interesting example of Chatbots in the sports industry. <br>
+           
+            <br><img src="img/barcelona.jpg" align="right">The football club of 'FC Barcelona' decided to launch their own chatbot which comes in-built with their application to increase fan satisfaction and engagement. <br>
+            The user gets to reply to questions posed by the application and the chatbot will eventually learn the fan tastes and suggest personalised content feed. <br>
+            There is a substantial amount of Recommender systems logic being implemented as well.
+             
+          
+            <br><br>
            </p>
 
           The two diverse well-known examples of chatbots shown above demonstrate the ability of chatbots to be versatile and valuable for improving the user experience and capturing audience through various means. With the advancements in technology, we may encounter more chatbots in other areas of our life.
@@ -229,7 +234,7 @@
 
           <p>
           	
-      <strong> Domaines et types du chatbot </strong> </br>
+      <strong> Domain and types of chatbots </strong> </br>
            
             <img src="img/DomainesChatbots.png" align="left">
           	Chatbots may be categorized in a different manner as well. 
@@ -240,6 +245,18 @@
 
           	On the other hand, Generative chatbots understand the user questions and responses a little more and are capable of creating personalised responses catering to the demand at hand.
            	These type of chatbots require the use of Machine learning and NLP, the architechtures of which we discussed in the section before.
+           	<br>
+           	<br>
+           	Now the difficulty of implementing these chatbots may change depending on its type and domain of application. <br><br>
+           	The easiest type of chatbot to implement would be a retrieval-based in a closed domain. It would simply work with certain pre-defined rules and queries, sort of like our decision tree described above.<br><br>
+
+           	Staying within a closed domain, a generative based chatbot would be a little harder to create as it would have to understand human queries albeit in a restricted domain of interest. <br><br>
+
+           	Moving on to an Open Domain, where there are no restrictions on topics of questioning, we acknowledge that building a Retrieval-Based chatbot in the Open Domain would be impossible.
+           	This is because we can build a decision tree like query structure for an infinitely large domain. <br><br>
+
+           	And finally of course, the hardest chatbot to build would be a General AI which can understand and reply to questions on any given topic. This could be a part of the General Intelligence which many fear to be a part of the AI-Singularity.
+
            </p>
 
 
@@ -259,32 +276,64 @@
       <div class="row">
         <div class="col-lg-10 mx-auto" style="text-align: justify">
           <h2 class="mb-5 large-font" align="center"> Computer Vision </h2>
-
-          <p class="lead mb-5">
+          <strong>What is Computer Vision?</strong>
+          <p> Computer vision is an interdisciplinary scientific field that is concerned with
+ teaching computers a high level of understanding from digital images or videos. <br><br>
+In the field of sport, researchers are training deep learning neural networks to achieve accuracy that surpasses humans in the ability to quickly capture and understand a variety of situations from photos and videos.
+For the next step in the future, they are working on building processes integrated into an automated framework. </p>
+          <strong>Application to the sports industry</strong>
+          <p> Let us look at some examples of Computer Vision applied to the sport industry </p>
+          <p >
           	<img src="img/roboref.jpg" align="left">
- 			Robo referre qui s'appelle 'Danny'
+ 			The image to the left shows the prototype image of the Robot referrees being planned to be introduced by the NBA by 2021. This particular one called 'Danny' would be equipped with computer vision technology and feed from various cameras including its own, and hence it could comprehend the game from the Point of view of many angles and be capable to take refereeing decisions much more accurately and unbiased than a human. <br><br>
+
+ 			Although, lots of ethical questions are being posed about referees losing their jobs and possible security issues with the robot referree which is initiating debates on its implementation. <br><br><br>
           </p>
 
-          <p class="lead mb-5">
-          	hello
+          <p><br><br> <br><br><br><br>
+          	
           	<img src="img/hawkeye.jpg" align="right">
-
+          	Many of you must be familiar with the image on the right, it is a hawkeye prediction system.<br><br> During matches of tennis when the player challenges the call of the referree, this system is called upon. Using Computer vision and ball-tracking technology, Hawkeye predicts whether the ball had fallen in or out.
+<br><br><br>
           </p>
 
-          <p class="lead mb-5">
+          <p>
 
-<iframe src="https://player.vimeo.com/video/119193860" width="640" height="388" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/119193860" width="640" height="388" frameborder="0" allow="autoplay; fullscreen" allowfullscreen align="left"></iframe> <br><br><br>
+						The video on the left is taken from the site of CSAIL. This is one of the labs at the forefront of sports-technology research. Through the video we see the capability of the Computer Vision technology to rate a human diver from the video footage. <br> <br>
 
+
+			We can assume no bias unless intentionally maliciously fed into the system, hence the system would rate the divers unbiasedly only based on their performance. Another very interesting point is that this technology, through motion tracking and computer vision training is capable of providing the diver feedback on how to improve based on their recent performance. A certain amount of NLP capabilities are also attached to this system. <br><br><br><br><br><br> <br><br><br>
           </p>
 
-          Points techniques
+          <strong>Technical remarks and accompanying case study -NASCAR crash prevention</strong> 
 
-          <p class="lead mb-5">
+          <br><br>NASCAR is one of the most popular and well known races in not just the USA but the world. Throughout history this fast paced action sport has been considered quite dangerous and risky due to the number of accidents that could possibly occur when multiple cars are circuiting laps at record speeds. Even historical facts verify this assumption.
+
+          <br><br> Now NASCAR is capitalizing on Computer Vision technologies to drastically reduce the amount of fatal crashes that happen every year.
+          <p> <br>
           	<img src="img/cv-nascar1.jpg" align="left">
+          	The idea is quite simple. <br> <br>Cameras are set up througout the race track. Back in the days of yore, pictures were taken of cars at high speed and the pictures were verified by experts in recognising cars from these 'blurry' high-speed images. Then through the pictures the defects in the cars were identified and appropriately the pit-stop teams were informed to prevent car-failures and hence eventual crashes. <br> <br>
+
+          	This is where Computer Vision application comes  into play. Although, cars were identified by human trained experts, this process was always not quite efficient or accurate. <br><br>
+          	With the advancements in technology, computers are being asked to identify cars in real time.  
           </p>
 
-          <p class="lead mb-5">
+          <p>
+          	<strong> How is this being done so? (Technical Details) </strong> <br>
+          	We are employing Convolutional Neural Networks to perform this task of image classification.<br><br>
           	<img src="img/cv-nascar2.png" align="right">
+          	Convolutional Neural Networks(CNN) are made up of many layers as shown in the figure to the right.
+          	<br>The input is an image in the form of a matrix and the output is a one hot encoded classification. <br>
+          	Just like any Machine Learning model we need a training and test set. The model is fed with traning models and their corresponding labels and through iterations the CNN learns the important features for distinguishing the images. <br>
+          	Then we test on the test data to see the capacity of the model to work on unseen new real-world data.<br> <br>
+ 			To dissect and understand our model a little more, let us take the output of one of the feature maps after a few iterations of training (sufficiently trained by now with little error rate).<br> <br>
+ 			What we would see is shown in the picture above. The image of the on the right car would be transformed into the one on the left where only the numbers are visible. This means that the feature maps are giving more weightage to the numbers on the vehicles as features.
+ 			This is in sync with our logic because indeed the numbers being unique for each vehicle are one key method to identifying the vehicles.
+
+
+
+
           </p>
 
 
@@ -294,7 +343,7 @@
   </section>
 
   <!-- missions -->
-
+<!--
   <section class="content-section" id="important2" style="background-color: #e0f4f6">
     <div class="container text-center">
       <div class="row">
@@ -322,6 +371,7 @@
     </div>
   </section>
 
+-->
 
    <section class="content-section bg-light-custom" id="IOT">
     <div class="container">
@@ -329,7 +379,7 @@
     <div >
       <div class="row">
         <div class="col-lg-10 mx-auto" style="text-align: justify">
-          <h2 class="mb-5 large-font" align="center"> Wearable tech et IOT </h2>
+          <h2 class="mb-5 large-font" align="center"> Wearable technology and IOT </h2>
           <p>Wearable technology is a hot market in recent times. With the purchase of Fitbit by Google for a whopping 5 Billion, more attention is being drawn to this domain than ever before. Research advancements in IOT - Sensor Networks, Analytics are revolutionilising the domain of Wearable technologies and their connectivity with the internet.  <br>
           	<br>
 
@@ -389,30 +439,35 @@
           <br><br><br>
           Let us now shift our attention to smart-stadiums
            <p >
-           	Recently grand stadiums are embracing IOT trends and becoming more 'intelligent'.
+           	Recently grand stadiums are embracing IOT trends and becoming more 'intelligent'. <br>
           	<img src="img/iotex2.png" align="right">
           	<br> <strong>What do we mean by intelligence here?</strong> <br>
           	Equipped with sensors and connections to the internet, the stadiums are offering more pleasant experiences for the fans.
 
-          	Information like Restroom Availability, Parking Availability and Stadium directions are provided in real time through sensors. With access to internet even replays and in-seat concession ordering features are pampering fans of the sport.
+          	Information like Restroom Availability, Parking Availability and Stadium directions are provided in real time through sensors. With access to internet even replays and in-seat concession ordering features are pampering fans of the sport. <br><br><br>
           </p>
 
           <strong> Technical details -How does this all work?</strong>
           <br>
           For wearable devices equipped with IOT technology there are three main steps:
+          <br><br> 
 
+          <p><img src="img/BAN-IOT.jpg" align="left">
+          	 First, the player is equipped with a Body Area Network (BAN). This is a network that consists of many sensors like heartbeat, temperature, pressure etc. Critical regions of the body which need to be monitored are targeted according to the sport. <br><br>
 
-          <p class="lead mb-5">
-          	<img src="img/BAN-IOT.jpg" align="right">
+          	 The BAN consists also of a gateway which collects all the flux of information from the sensors and connects to the internet. Think of it like a path to the internet.
+
+          	
           </p>
 
-                     <p class="lead mb-5">
-          	<img src="img/Cloud-IOT.png" align="right">
+                     <p><img src="img/Cloud-IOT.png" align="right"><br><br><br><br>Once we are connected to the internet, now these data are stored and processed on the cloud. Various cloud services like AWS, Google Cloud , Azure etc are often used and designated in the process workflow.
+          	
           </p>
 
 
-           <p class="lead mb-5">
-          	<img src="img/Dashboards-IOT.jpg" align="right">
+           <p><br><br><br><br><br><br><br><br><img src="img/Dashboards-IOT.jpg" align="left"> Finally, the analysed results on the cloud are often sent to dashboards for visualisation in a human comprehensible manner. <br><br>
+           	Often these dashboards used by the coaching staff are hosted on the cloud itself for providing dynamic and interactive analysis and feed back for individual players.
+          	
           </p>
 
         <p class="lead mb-5">
@@ -441,9 +496,59 @@
                 <div class="row">
                   <div class="col-lg-10 mx-auto" style="text-align: justify">
           <h2 class="mb-5 large-font" align="center">Bibliographie</h2>
-          <p class="lead mb-5">Wikipedia Article on IOT: <br>
+
+          <p >Wikipedia Article on IOT: <br>
             <a href="https://en.wikipedia.org/wiki/Internet_of_things">
               https://en.wikipedia.org/wiki/Internet_of_things</a></p>
+
+                        <p >Wikipedia article on Automated Journalism: <br>
+            <a href="https://en.wikipedia.org/wiki/Internet_of_things">
+              https://en.wikipedia.org/wiki/Internet_of_things</a></p>
+
+                        <p>Deloitte Sports tech report: <br>
+            <a href="https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consumer-business/us-cb-internet-of-things-sports.pdf">
+              https://www2.deloitte.com/content/dam/Deloitte/us/Documents/consumer-business/us-cb-internet-of-things-sports.pdf</a></p>
+
+                        <p>Machine Learning Mastery Feature Maps article <br>
+            <a href="https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/">
+              https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/</a></p>
+
+                        <p>NVIDIA blogs article on NASCAR safety: <br>
+            <a href="https://blogs.nvidia.com/blog/2017/05/18/nascar-safety/">
+              https://blogs.nvidia.com/blog/2017/05/18/nascar-safety/</a></p>
+
+                        <p>CSAIL MIT site article: <br>
+            <a href="https://www.csee.umbc.edu/~hpirsiav/quality.html">
+              https://www.csee.umbc.edu/~hpirsiav/quality.html</a></p>
+
+                <p>USINE Nouvelle article sur AWS dans NFL <br>
+            <a href="https://www.usine-digitale.fr/article/la-nfl-et-amazon-web-services-s-associent-pour-prevenir-les-commotions-cerebrales-des-joueurs.N911009">
+             https://www.usine-digitale.fr/article/la-nfl-et-amazon-web-services-s-associent-pour-prevenir-les-commotions-cerebrales-des-joueurs.N911009</a></p>
+
+                <p>Analysis of tech in sport <br>
+            <a href="https://emerj.com/ai-sector-overviews/artificial-intelligence-in-sports/
+">
+              https://emerj.com/ai-sector-overviews/artificial-intelligence-in-sports/
+</a></p>
+
+                <p>Growth and trends of Sports tech Market research report <br>
+            <a href="https://newsparent.com/sports-technology-market-2020-market-manufacturers-analysis-share-size-growth-outlookfuture-trends-and-research-report/
+">
+              https://newsparent.com/sports-technology-market-2020-market-manufacturers-analysis-share-size-growth-outlookfuture-trends-and-research-report/
+</a></p>
+
+ <p>Forbes article on how technology will revolutionalise sport forever <br>
+            <a href=" https://www.forbes.com/sites/cognitiveworld/2019/03/15/heres-how-ai-will-change-the-world-of-sports/#5bbf732556be">          
+https://www.forbes.com/sites/cognitiveworld/2019/03/15/heres-how-ai-will-change-the-world-of-sports/#5bbf732556be
+</a></p>
+
+
+
+
+
+
+
+
 
         </div>
       </div>
